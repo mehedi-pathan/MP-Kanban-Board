@@ -1,3 +1,12 @@
+# Sample of login and Dashboard
+
+### Login / User Selector
+![Login in](public/screenshots/mp-kanban-login-page.png)
+
+
+### Kanban Dashboard
+![Dashboard](public/screenshots/mp-kanban-dashboard-page.png)
+
 # MP Kanban Board
 
 A Next.js Kanban board with drag-and-drop task management, Supabase persistence, and real-time sync.
@@ -126,14 +135,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - `.env.local` should never be committed.
 - If a real Supabase anon key was exposed publicly, rotate it from Supabase project settings.
-
-## Deployment
-
-Deploy as a standard Next.js app (for example on Vercel):
-
-1. Set the same environment variables in your hosting platform.
-2. Ensure Supabase table + policies are already created.
-3. Build and deploy.
 
 ## Future Improvements
 
